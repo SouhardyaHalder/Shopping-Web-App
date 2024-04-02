@@ -71,13 +71,6 @@ public class Controller {
         Random random = new Random();
         int orderId = random.nextInt(1000);
 
-//        String temp="";                 //a temp string is used to capture coupon code some unprecedented value was coming along with coupon value
-//                                        //to avoid ambiguity temp variable is used
-//
-//        for(int i=0;i<coupon.length()-1;i++){
-//            temp += coupon.charAt(i);
-//        }
-
         //Handling quantity test case
         if(qty<1 || qty>available){
             String description = "Invalid quantity. Quantity is either less than 1 or more than the maximum quantity of product available";
